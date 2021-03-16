@@ -1,0 +1,55 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Omni",
+  "workbench.editor.labelFormat": "short",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.suggestSelection": "first",
+
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "window.zoomLevel": 0,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "prettier.printWidth": 180,
+
+  "git.autofetch": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "material-icon-theme.folders.associations": {
+    "repositories": "mappings",
+    "useCases": "controller",
+    "entities": "class",
+    "implementations": "core",
+    "ui": "Layout",
+    "enums": "Json",
+    "device": "Client",
+    "domain": "Src",
+    "exceptions": "Error"
+  },
+
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [0],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }
+}
